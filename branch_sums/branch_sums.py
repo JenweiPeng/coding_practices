@@ -26,3 +26,7 @@ class BinaryTree:
         calculateBranchSum(node.left, branchSum, output)
         # ... to the right branch
         calculateBranchSum(node.right, branchSum, output)
+
+
+# time complezity: O(n) since we have to traveral to each node, total N nodes
+# space?
